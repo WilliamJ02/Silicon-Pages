@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Silicon | Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/contact.css">
+
+        <script defer src="js/appointment.js"></script>
+        <script defer src="js/email.js"></script>
+    </head>
+    <body>
+        <section class="landing-section">
+            <img class="landing-background" src="images/bg4.svg">
+            <header class="header">
+                <div class="logo">
+                    <img src="icons/silicon-logo.svg">
+                </div>
+                <ul class="menu">
+                    <li class="menu-text">Overview</li>
+                    <li class="menu-text">Features</li>
+                    <li class="menu-text">News</li>
+                    <li class="menu-text">Contact</li>
+                </ul>
+                <div class="switch">
+                    <div>Light</div>
+                    <input class="input-button" type="checkbox" id="check"> 
+                    <label for="check" class="check-button"></label>
+                    <div>Dark</div>
+                </div>
+                <button class="sign-up-button" type="button">
+                    <span class="sign-up-icon">
+                        <img class="user-icon" src="icons/user.svg">
+                    </span>
+                    <span class="button-text">Sign in &#47; up</span>
+                </button>
+                </div>
+            </header>
+            <div class="landing-wrapper">
+                <div class="breadcrumb">
+                    <img src="icons/bx-home-alt.svg">
+                    <p class="breadcrumb-home">Home</p>
+                    <img src="icons/bx-chevrons-right.svg">
+                    <p class="breadcrumb-contact">Contact</p>
+                </div>
+                <div class="landing-contents">
+                    <div class="contact-options">
+                        <h1>Contact Us</h1>
+                        <div class="contact-box">
+                            <div>
+                                <img src="icons/bx-envelope1.svg" class="email-logo">
+                            </div>
+                            <div class="email-contents">
+                                <h2>Email us</h2>
+                                <p class="email-text">Please feel free to drop us a line. 
+                                    We will respond as soon as possible.
+                                </p>
+                                <p class="email-leave-msg">Leave a message &#10141;</p>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <div class="eml-lgo">
+                                <img src="icons/add-group.svg" class="em-lgo">
+                            </div>
+                            <div class="email-contents">
+                                <h2>Careers</h2>
+                                <p class="email-text">Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                                <p class="email-leave-msg">Send an application &#10141;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <div class="contact-contents">
+                            <h2 class="forms-header">Get Online Consultation</h2>
+                            <form class="contact-form-wrap" id="myForm" method="post">
+                                <div class="form-standard">
+                                    <label class="label-1" for="name">Full name</label>
+                                    <input id="name" name="name" type="text" class="form-box">
+                                    <div class="error" id="nameError"></div>
+                                </div>
+                                <div class="form-standard">
+                                    <label class="label-1" for="email">Email address</label>
+                                    <input id="email" name="email" type="text" class="form-box">
+                                    <div class="error" id="emailError"></div>
+                                </div>
+                                <div class="form-standard">
+                                    <label class="label-1" for="specialist">Specialist</label>
+                                    <input id="specialist" name="specialist" type="text" class="form-box">
+                                    <div class="error" id="specialistError"></div>
+                                </div>
+                                <div class="date-box-container">
+                                    <div class="date-time-box">
+                                        <label class="label-1" for="date">Date</label>
+                                        <input id="date" name="date" type="text" class="date-box">
+                                        <div class="error" id="dateError"></div>
+                                    </div>
+                                    <div class="date-time-box">
+                                        <label class="label-1" for="time">Time</label>
+                                        <input id="time" name="time" type="text" class="date-box">
+                                        <div class="error" id="timeError"></div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="appointment-btn">Make an appointment</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="map-wrapper">
+                <img src="images/map.svg">
+                <div class="map-locations">
+                    <div class="map-location-box">
+                        <h2>Medical Center 1</h2>
+                        <div class="map-list">
+                            <img src="icons/bx-map.svg" class="map-icon">
+                            <p class="map-list-text">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        </div>
+                        <div class="map-list">
+                            <img src="icons/bx-phone-call.svg" class="map-icon">
+                            <p class="map-list-text">(406) 555-0120</p>
+                        </div>
+                        <div class="map-list">
+                            <img src="icons/bx-time-five.svg" class="map-icon">
+                            <p class="map-list-text"><span class="map-days">Mon &#45; Fri:</span> 9:00 am &#45; 22:00 am
+                                <br>
+                                <span class="map-days">Sat &#45; Sun:</span> 9:00 am &#45; 20:00 am
+                            </p>
+                        </div>
+                    </div>
+                    <div class="map-location-box">
+                        <h2>Medical Center 1</h2>
+                        <div class="map-list">
+                            <img src="icons/bx-map.svg" class="map-icon">
+                            <p class="map-list-text">2464 Royal Ln. Mesa,New Jersey 45463</p>
+                        </div>
+                        <div class="map-list">
+                            <img src="icons/bx-phone-call.svg" class="map-icon">
+                            <p class="map-list-text">(406) 544-0123</p>
+                        </div>
+                        <div class="map-list">
+                            <img src="icons/bx-time-five.svg" class="map-icon">
+                            <p class="map-list-text"><span class="map-days">Mon &#45; Fri:</span> 9:00 am &#45; 22:00 am
+                                <br>
+                                <span class="map-days">Sat &#45; Sun:</span> 9:00 am &#45; 20:00 am
+                            </p>
+                        </div>
+                    </div>
+                    <div class="map-icons-container">
+                        <img src="icons/bxl-facebook-square.svg" class="app-logo">
+                        <img src="icons/bxl-twitter.svg" class="app-logo">
+                        <img src="icons/bxl-instagram-alt.svg" class="app-logo">
+                        <img src="icons/bxl-youtube.svg" class="app-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-left-section">
+                    <img src="images/silicon-white.svg" class="silicon-logo">   
+                    <p class="footer-text">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. 
+                        Lacus, eget eu vitae nullam proin turpis etiam mi sit. 
+                        Non feugiat feugiat egestas nulla nec. 
+                        Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros. 
+                    </p>     
+                    <label for="subscribe-input" class="subscribe-label">Subscribe to our newsletter</label>
+                    <form class="subscribe-form" id="subscribeForm">
+                        <img src="icons/bx-envelope.svg" class="subscribe-envelope">
+                            <input id="email1" class="subscribe-input" type="text" placeholder="Your Email">
+                            <button class="subscribe-button" type="submit">Subscribe</button>
+                    </form>
+                    <div class="error1" id="emailError1"></div>
+                    <p class="copyright-text">2024. All rights reserved. Silicon Template</p>           
+                </div>
+                <div class="footer-right-section">
+                    <div class="left-part">
+                        <ul class="frame-1961">
+                            <li class="text-1961">Home</li>
+                            <li class="text-1961">Services</li>
+                            <li class="text-1961">Our Clients</li>
+                            <li class="text-1961">Testimonials</li>
+                            <li class="text-1961">News</li>
+                        </ul>
+                        <ul class="frame-1964">
+                            <li class="text-1961">Terms & Conditions</li>
+                            <li class="text-1961">Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="center-part">
+                        <ul class="frame-1962">
+                            <li class="text-1961">Facebook</li>
+                            <li class="text-1961">Linkedin</li>
+                            <li class="text-1961">Twitter</li>
+                            <li class="text-1961">Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="right-part">
+                        <ul class="frame-1963">
+                            <li class="text-1961">Contact Us</li>
+                            <li class="email-text-1963">example@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
